@@ -57,7 +57,10 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   # Adds colorful signal for test report
-  # gem 'minitest' 
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'guard'      
+  gem 'guard-minitest'
 end
 
 group :production do 
